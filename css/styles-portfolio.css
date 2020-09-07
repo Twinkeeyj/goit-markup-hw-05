@@ -253,6 +253,20 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+.fish {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1, 55;
+  background: rgba(33, 150, 243, 0.9);
+  color: var(--primary-beg-color);
+
+  width: 370;
+  height: min-content 294px;
+  padding: 24px, 63px;
+  position: relative;
+  bottom: 63px;
+}
 /* ====end hero==== */
 
 /* ====foother==== */
@@ -357,3 +371,7 @@ img {
 }
 
 /* ====end foother==== */
+position: relative;
+bottom: 70px;
+padding-top: 26px;
+padding-bottom: 26px;
