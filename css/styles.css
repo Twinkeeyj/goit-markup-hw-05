@@ -388,7 +388,7 @@ img {
   height: 44px;
 
   transition-property: all;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-svg {
@@ -548,7 +548,7 @@ img {
   width: 206px;
 }
 .second-floor {
-  display: fle;
+  display: flex;
 }
 /* order */
 .order {
@@ -559,6 +559,12 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
+/* .for-form {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+} */
 .windows {
   width: 528px;
   height: 581px;
@@ -580,5 +586,14 @@ img {
   position: absolute;
   right: 8px;
   top: 8px;
+  /* box-sizing: inherit; */
+}
+.is-hiden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 /*over order */
+.xz {
+  fill: var(--accent-color);
+}
