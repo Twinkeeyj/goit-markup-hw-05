@@ -64,7 +64,9 @@
         <div class="hero">
           <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
 
-          <button type="button" class="button">Заказать услугу</button>
+          <button type="button" class="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <!-- Наши плюс -->
@@ -430,5 +432,12 @@
         </div>
       </div>
     </footer>
+    <div class="order data-modal">
+      <div class="windows">
+        <button class="but-cl" type="button" data-modal-close>x</button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

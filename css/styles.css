@@ -548,7 +548,37 @@ img {
   width: 206px;
 }
 .second-floor {
-  display: flex;
+  display: fle;
 }
-
-/* чорновик */
+/* order */
+.order {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.windows {
+  width: 528px;
+  height: 581px;
+  top: 221px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.but-cl {
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-beg-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+/*over order */
