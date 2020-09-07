@@ -533,7 +533,7 @@ img {
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: bezier;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-a:hover {
   background-color: var(--title-text-color);
