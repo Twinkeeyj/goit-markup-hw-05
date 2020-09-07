@@ -96,7 +96,7 @@ img {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: bbezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav-bot:hover,
 .site-nav-bot:focus {
@@ -114,7 +114,7 @@ img {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .kontakt .item {
   padding-top: 32px;
@@ -389,7 +389,7 @@ img {
 
   transition-property: all;
   transition-duration: 2500ms;
-  transition-timing-function: bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-svg {
   fill: var(--color-svg);
@@ -437,7 +437,7 @@ img {
 
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers:hover .customers-svg {
   fill: var(--title-text-color);
@@ -477,7 +477,7 @@ img {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-kont {
   font-style: normal;
@@ -489,7 +489,7 @@ img {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-kont:hover,
 .address-kont:focus {
