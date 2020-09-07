@@ -93,6 +93,10 @@ img {
   line-height: 1.42;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: bezier;
 }
 .site-nav-bot:hover,
 .site-nav-bot:focus {
@@ -107,6 +111,10 @@ img {
   color: var(--primari-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: bezier;
 }
 .kontakt .item {
   padding-top: 32px;
@@ -122,7 +130,6 @@ img {
 .site-nav-w {
   display: block;
   padding-top: 32px;
-  padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -130,6 +137,16 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.site-nav-w::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: var(--title-text-color);
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
 .kontaсt-inf:hover,
 .kontaсt-inf:focus {
   color: var(--title-text-color);
@@ -204,7 +221,7 @@ img {
 /* ====our pros==== */
 .pros .item::before {
   display: block;
-  content: '';
+  content: "";
   height: 120px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -294,6 +311,19 @@ img {
 .ex-work {
   margin-bottom: 94px;
 }
+.item-app {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.33;
+  color: var(--primary-beg-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+
+  position: relative;
+  bottom: 70px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
 /* ====end examples of works==== */
 /* ====team==== */
 .team-name {
@@ -356,6 +386,10 @@ img {
   background-color: var(--primary-beg-color);
   width: 44px;
   height: 44px;
+
+  transition-property: all;
+  transition-duration: 2500ms;
+  transition-timing-function: bezier;
 }
 .social-svg {
   fill: var(--color-svg);
@@ -400,6 +434,10 @@ img {
 }
 .customers-svg {
   fill: var(--color-svg);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: bezier;
 }
 .customers:hover .customers-svg {
   fill: var(--title-text-color);
@@ -436,6 +474,10 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-beg-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: bezier;
 }
 .address-kont {
   font-style: normal;
@@ -444,6 +486,10 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: bezier;
 }
 .address-kont:hover,
 .address-kont:focus {
@@ -484,6 +530,10 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: bezier;
 }
 .social-a:hover {
   background-color: var(--title-text-color);
@@ -500,3 +550,5 @@ img {
 .second-floor {
   display: flex;
 }
+
+/* чорновик */
