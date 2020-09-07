@@ -588,12 +588,9 @@ img {
   top: 8px;
   /* box-sizing: inherit; */
 }
-.is-hiden {
+/* .is-hiden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 /*over order */
-.xz {
-  fill: var(--accent-color);
-}
