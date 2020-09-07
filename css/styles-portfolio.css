@@ -249,13 +249,15 @@ img {
 .item .foto {
   padding-bottom: 20px;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .project .item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
+.f-1:hover {
+  transform: translateY(0%);
+}
 .fish {
   font-weight: 400;
   font-size: 18px;
@@ -274,12 +276,14 @@ img {
   position: absolute;
   transition-duration: 250ms;
   transition-property: all;
-  transition-duration: 250ms;
+  transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
 }
-.foto:hover {
+.f-1:hover .fish {
   transform: translateY(0%);
 }
+
 /* ====end hero==== */
 
 /* ====foother==== */
@@ -322,7 +326,6 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: scroll;
 }
 .address-kont:hover,
 .address-kont:focus {
